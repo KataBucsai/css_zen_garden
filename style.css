@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: green;
+    background-image: url("garden.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-right: 420px;
+}
+h3:before{
+    background-image: url("h3_sign.jpg");
+    background-size: 50px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    content: "";
+}
+
+#zen-intro h1 {
+    font-size: 26px;
+    text-align: left;
+    margin-left: 400px;
+    padding-top: 130px;
+}
+
+#zen-intro h2 {
+    font-size: 16px;
+    text-align: left;
+    line-height: 15px;
+    margin-left: 400px;;
+    padding: 0;
+}
+
+#zen-summary {
+    margin-top: 40px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+#zen-summary a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#zen-preamble p, #zen-supporting p, #zen-participation p, 
+#zen-benefits p, #zen-requirements  p{
+    margin-left: 50px;
+}
+#design-selection {
+    position: absolute;
+    top: 350px;
+    right: 0;
+    width: 400px;
+    color: white;
+    background: green;
+}
+#design-archives {
+    position: absolute;
+    top: 700px;
+    right: 0;
+    width: 400px;
+    color: white;
+    background: green;
+}
+#zen-resources {
+    position: absolute;
+    top: 900px;
+    right: 0;
+    width: 400px;
+    color: white;
+    background: green;
+}
+.wrapper h3{
+    padding-left: 10px;
+}
+.wrapper a{
+    color: white;
+}
+.wrapper ul{
+    display: block;
+    line-height: 25px;
+    padding: 15px 25px;
+}
+footer{
+    text-align: center;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+footer a{
+    color: white;
+}
